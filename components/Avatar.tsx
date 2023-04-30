@@ -9,7 +9,7 @@ interface AvatarProps {
   isLarge?: boolean;
   hasBorder?: boolean;
 }
-
+// shshs
 const Avatar: React.FC<AvatarProps> = ({ userId, isLarge, hasBorder }) => {
   const router = useRouter();
 
